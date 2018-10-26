@@ -1,0 +1,16 @@
+{
+	"name": "myclass",
+	"version": "1.0.2",
+	"description": "sample express js project",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js PORT=9000",
+		"sarita": "node ../helloworld.js"
+	},
+	"author": "srisaiswaroop",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.16.4"
+	}
+}
