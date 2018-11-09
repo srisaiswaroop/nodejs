@@ -26,6 +26,14 @@ const authentication = async (req, res) => {
 	console.log('user', user);
 	// res.json(user);
 };
+
+const secureapi = async (req, res) => {
+	res.json({
+		message: 'your token is valid and you are able to access the secure api',
+	});
+};
+
 module.exports = {
 	authentication,
+	secureapi,
 };
